@@ -14,6 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<!-- versions as available on central Maven -->
+		<sap.cloud.sdk.path>/home/ubuntu/rakesh/neo-sdk/neo-java-web-sdk-3.58.10.1/neo-java-web-sdk-3.58.10.1/sdk</sap.cloud.sdk.path>
 		<sap.cloud.sdk.version>3.11.5.1</sap.cloud.sdk.version>
 	</properties>
 
