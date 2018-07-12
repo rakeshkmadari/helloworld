@@ -44,6 +44,18 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
+			<plugin>
+	  			<groupId>com.sap.cloud</groupId>
+          <artifactId>${sap.cloud.sdk.plugin}</artifactId>
+          <executions>
+		  <execution>
+              <phase>initialize</phase>
+              <goals>
+                <goal>install-sdk</goal>
+              </goals>
+            </execution>
+		  </executions>
+			</plugin>
 		</plugins>
 		<finalName>helloworld</finalName>
 	</build>
