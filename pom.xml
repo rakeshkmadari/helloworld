@@ -47,7 +47,7 @@
 			</plugin>
 			<plugin>
 	  			<groupId>com.sap.cloud</groupId>
-          <artifactId>${sap.cloud.sdk.plugin}</artifactId>
+          <artifactId>neo-java-web-maven-plugin</artifactId>
           <executions>
 		  <execution>
               <phase>initialize</phase>
